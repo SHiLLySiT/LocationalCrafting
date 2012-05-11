@@ -1,0 +1,21 @@
+name: LocationalCrafting
+version: 1.0.0
+description: Location based crafting plugin for Minecraft.
+author: SHiLLySiT
+
+main: me.SHiLLySiT.LocationalCrafting.LocationalCrafting
+
+commands:
+    locationalcrafting:
+      description: Default command.
+      aliases: [lc]
+      usage: /<command>
+    locationalcrafting reload:
+      description: Reloads config file.
+      aliases: [lc]
+      permission: locationalcrafting.reload
+      usage: /<command>
+      
+permissions:
+locationalcrafting.reload:
+        description: Gives access to reload command.
